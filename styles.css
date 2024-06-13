@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 700px;
+}
+
+.row {
+    flex: auto;
+    display: flex;
+}
+
+.square {
+    flex: 1;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
