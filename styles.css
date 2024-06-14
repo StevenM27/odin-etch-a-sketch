@@ -5,16 +5,19 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 
 #container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 700px;
-    width: 700px;
+    height: 725px;
+    width: 725px;
+    border: 1px black solid;
 }
 
 .row {
@@ -26,4 +29,12 @@ body {
     flex: 1;
     border: 1px black solid;
     box-sizing: border-box;
+}
+
+.colored {
+    background-color: black;
+}
+
+button {
+    margin-top: 25px;
 }
